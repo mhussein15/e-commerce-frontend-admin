@@ -24,7 +24,7 @@ export default function OrderItem({ item }) {
           ))}
         </div>
       </div>
-      <div className="col-3">
+      <div className="col-3 d-flex  align-items-center">
         <h5 className="">
           {item.user.user_address.address}---
           {item.user.user_address.city},{item.user.user_address.country}
